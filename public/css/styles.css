@@ -1,24 +1,27 @@
 html {
-  background-color: #0B0C10;
-  min-height: 1000px;
+  background-color: #2f6865;
+  opacity: 0.9;
   font-family: 'helvetica neue';
 }
 
 h1 {
   color: #fff;
+  opacity: 0.9;
   padding: 10px;
 }
 
 .box {
   max-width: 400px;
   margin: 50px auto;
-  background: white;
+  background: #1F2833;
+    opacity: 0.9;
   border-radius: 5px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
 #heading {
-  background-color: #A683E3;
+  background-color: #0b0c10;
+  opacity: 0.9;
   text-align: center;
 }
 
@@ -26,7 +29,8 @@ h1 {
   min-height: 70px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #F1F1F1;
+  border-bottom: 1px solid #fff;
+  opacity: 0.9;
 }
 
 .item:last-child {
@@ -35,7 +39,6 @@ h1 {
 
 input:checked+p {
   text-decoration: line-through;
-  text-decoration-color: #A683E3;
 }
 
 input[type="checkbox"] {
@@ -47,7 +50,7 @@ p {
   padding: 20px;
   font-size: 20px;
   font-weight: 200;
-  color: #00204a;
+  color: #fff;
 }
 
 form.item {
@@ -60,11 +63,15 @@ button {
   width: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #A683E3;
-  color: #fff;
+  background-color: #b2b3b4;
+  color: #000;
   font-size: 30px;
-  padding-bottom: 6px;
   border-width: 0;
+  margin-left: 10px;
+}
+button:hover{
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 input[type="text"] {
@@ -75,21 +82,22 @@ input[type="text"] {
   background: transparent;
   font-size: 20px;
   font-weight: 200;
-  width: 313px;
+  width: 300px;
 }
 
 input[type="text"]:focus {
   outline: none;
   box-shadow: inset 0 -3px 0 0 #A683E3;
+  color: #fff;
 }
 
 ::placeholder {
-  color: grey;
-  opacity: 1;
+  color: #fff;
+  opacity: 0.35;
 }
 
 footer {
   color: white;
-  color: rgba(0, 0, 0, 0.5);
   text-align: center;
+  margin-top: 80px;
 }
