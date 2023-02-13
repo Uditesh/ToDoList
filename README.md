@@ -1,6 +1,6 @@
 # todo-list
 
-## Website - https://todo-list-by-uditesh.herokuapp.com/
+## Website - https://todo-list-by-uditesh-jha.herokuapp.com/
 
 ### Technolies - Node JS, Express JS, Mongo DB, Mongoose.
 
